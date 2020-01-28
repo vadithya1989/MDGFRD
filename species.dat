@@ -1,0 +1,21 @@
+1 2 8.28e-13 1.6423e5 2.75e-9 5e-23 0.0 1.25e-40
+0 2 8.28e-13 1.6423e5 2.75e-9 5e-23 0.0 1.25e-40
+0 2 8.28e-13 1.6423e5 2.75e-9 5e-23 0.0 1.25e-40
+1 1 8.28e-13 1.6423e5 2.75e-9 5e-23 0.0 1.25e-40
+1 1 8.28e-13 1.6423e5 2.75e-9 5e-23 0.0 1.25e-40
+0 1 8.28e-13 1.6423e5 2.75e-9 5e-23 0.0 1.25e-40
+0 1 8.28e-13 1.6423e5 2.75e-9 5e-23 4.66 1.25e-40
+
+#####################################################################################
+###########CONTAINS A LIST OF ALL SPECIES THAT IS USED IN THE SIMULATION#############
+
+# 0 is a substrate particle with two patches, both unphosphorylated
+# 1 is a substrate particle with two patches, one unphosphorylated and one phosphorylated
+# 2 is a substrate particle with two patches, both phosphorylated
+# 3 is a kinase    particle with one patch,   which is active
+# 4 is a phosphotase particle with one patch, which is active
+# 5 is a kinase    particle with one patch,   which is inactive
+# 6 is a phosphotase particle with one patch, which is inactive
+#number of species particles >> number of patches per species >>  diffusion constant >> rotational diffusion constant >> particle radius >> particle mass >> mass moment of inertia >> dissociation constant(got from the LD code)
+# mass moment of inertia = 2/5*mass*radius^2
+
